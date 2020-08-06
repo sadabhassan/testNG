@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testNG" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="listeners.ListenerClass"></listener>
+    </listeners>
+    <test name="sanity test">
+        <classes>
+            <class name="listeners.ListenerExample"/>
+        </classes>
+    </test>
+</suite>

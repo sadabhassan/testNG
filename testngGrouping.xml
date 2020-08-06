@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testNG">
+
+    <test name="sanity test">
+        <groups>
+            <run>
+                <!--exclude name="smoke"-->
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="grouping.GroupingExample"/>
+        </classes>
+    </test>
+</suite>

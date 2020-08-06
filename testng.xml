@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testNG">
+
+    <test name="sanity test">
+        <parameter name="userName" value="sadabhassan"></parameter>
+        <parameter name="password" value="abc123456"></parameter>
+        <classes>
+            <class name="parameters.ParameterExample"/>
+        </classes>
+    </test>
+</suite>
