@@ -8,4 +8,9 @@ public class dataProviderExample {
         System.out.println(user);
         System.out.println(password);
     }
+
+    @Test(dataProvider = "credentials", dataProviderClass = dataProviderClass.class)
+    public void login(String userName, String pwd) {
+        System.out.println(userName + "  "+ pwd);
+    }
 }
