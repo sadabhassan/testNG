@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 public class BasicAnnotation2 extends baseAnnotation {
     @Test
     public void test4(){
-        System.out.println("git test branch A");
         System.out.println("I am in test4");
     }
 
