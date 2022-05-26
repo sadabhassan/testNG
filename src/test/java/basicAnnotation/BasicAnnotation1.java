@@ -6,6 +6,7 @@ public class BasicAnnotation1 extends baseAnnotation{
 
     @Test
     public void test1(){
+        System.out.println("Git test branch A");
         System.out.println("I am in test1");
     }
 
